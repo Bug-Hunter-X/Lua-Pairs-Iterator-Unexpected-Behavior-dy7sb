@@ -1,0 +1,2 @@
+# Lua Pairs Iterator Unexpected Behavior
+This repository demonstrates an uncommon bug in Lua related to the `pairs` iterator.  When modifying a table during iteration using `pairs`, the iterator's behavior might become unpredictable, potentially leading to skipped elements or infinite loops. The bug is subtle and can be difficult to track down in larger codebases.  The `bug.lua` file shows the issue, while `bugSolution.lua` presents a solution to avoid this issue. This example highlights the importance of careful table manipulation during iteration in Lua.
